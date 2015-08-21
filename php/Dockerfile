@@ -12,3 +12,7 @@ RUN yum -y update; yum clean all
 
 # Install additional packages
 RUN yum -y install php; yum clean all
+
+# Install composer
+RUN curl -sS https://getcomposer.org/installer | php
+RUN mv composer.phar /usr/local/bin/composer
