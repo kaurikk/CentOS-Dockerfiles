@@ -13,7 +13,7 @@ More information - [Docker Hub](https://hub.docker.com/r/managlea/centos/)
  * Based on Managlea base (managlea/centos) image
  * Installed packages:
    * php-5.6.*
-   * composer
+   * composer - https://getcomposer.org
 ```
 $ docker pull managlea/centos-php
 ```
