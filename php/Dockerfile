@@ -1,10 +1,10 @@
 ############################################################
-# Dockerfile to build Centos image with PHP packages
+# Dockerfile to build CentOS image with PHP packages
 # Based on managlea/centos
 ############################################################
 
 # Set the base image to managlea/centos
-FROM managlea:centos
+FROM managlea/centos
 MAINTAINER Kauri Kont-Kontson <kauri.kont-kontson@managlea.com>
 
 # Update packages
