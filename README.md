@@ -15,7 +15,8 @@ More information - [Docker Hub](https://hub.docker.com/r/managlea/centos/)
    * composer - https://getcomposer.org
    * git
    * php-5.6.*
-   * ext-pdo
+     * pdo
+     * dom
 ```
 $ docker pull managlea/centos-php
 ```
