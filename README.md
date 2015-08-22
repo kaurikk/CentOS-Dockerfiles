@@ -12,8 +12,10 @@ More information - [Docker Hub](https://hub.docker.com/r/managlea/centos/)
 ## PHP image
  * Based on Managlea base (managlea/centos) image
  * Installed packages:
-   * php-5.6.*
    * composer - https://getcomposer.org
+   * git
+   * php-5.6.*
+   * ext-pdo
 ```
 $ docker pull managlea/centos-php
 ```
