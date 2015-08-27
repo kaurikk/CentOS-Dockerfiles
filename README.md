@@ -21,3 +21,13 @@ More information - [Docker Hub](https://hub.docker.com/r/managlea/centos/)
 $ docker pull managlea/centos-php
 ```
 More information - [Docker Hub](https://hub.docker.com/r/managlea/centos-php/)
+
+## WS (workstation) image
+ * Based on Managlea base (managlea/centos) image
+ * Installed packages:
+   * Chef DK
+   * AWS Cli
+```
+$ docker pull managlea/centos-ws
+```
+More information - [Docker Hub](https://hub.docker.com/r/managlea/centos-ws/)
