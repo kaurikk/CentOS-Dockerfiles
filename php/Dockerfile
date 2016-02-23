@@ -6,15 +6,18 @@
 # Set the base image to managlea/centos
 FROM managlea/centos
 MAINTAINER Kauri Kont-Kontson <kauri.kont-kontson@managlea.com>
+LABEL build-date="2016-02-23"
 
-# Update packages
-RUN yum -y update && yum clean all
+# Install & enable REMI
+RUN rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+RUN yum-config-manager --enable remi-php70
 
 # Install additional packages
 RUN yum -y install \
   git \
   php \
   php-pdo \
+  php-process \
   php-xml \
   && yum clean all
 

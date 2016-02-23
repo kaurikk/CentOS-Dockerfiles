@@ -3,7 +3,6 @@ This repository provides Dockerfiles for use with CentOS. Implementations here w
 
 ## Managlea base image
  * Based on official CentOS7 image with all updates
- * REMI repo with remi-php70 enabled - http://rpms.famillecollet.com
 ```
 $ docker pull managlea/centos
 ```
@@ -11,12 +10,14 @@ More information - [Docker Hub](https://hub.docker.com/r/managlea/centos/)
 
 ## PHP image
  * Based on Managlea base (managlea/centos) image
+ * REMI repo with remi-php70 enabled - http://rpms.famillecollet.com
  * Installed packages:
    * composer - https://getcomposer.org
    * git
    * php-7.0.*
      * pdo
-     * dom
+     * process
+     * xml
 ```
 $ docker pull managlea/centos-php
 ```
