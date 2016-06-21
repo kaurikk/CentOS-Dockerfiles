@@ -16,6 +16,8 @@ RUN yum-config-manager --enable remi-php70
 RUN yum -y install \
   git \
   php \
+  php-mysqlnd \
+  php-pecl-zip \
   php-pdo \
   php-process \
   php-xml \
