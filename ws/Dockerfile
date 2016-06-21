@@ -3,8 +3,7 @@ FROM managlea/centos
 MAINTAINER Kauri Kont-Kontson <kauri.kont-kontson@managlea.com>
 
 # Install Chef DK
-RUN curl -O https://packages.chef.io/stable/el/7/chefdk-0.12.0-1.el7.x86_64.rpm
-RUN rpm -Uvh chefdk-0.12.0-1.el7.x86_64.rpm
+RUN curl "https://omnitruck.chef.io/install.sh" | bash -s -- -c current -P chefdk
 
 
 # Install AWS Cli
