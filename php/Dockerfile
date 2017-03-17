@@ -19,6 +19,8 @@ RUN yum -y install \
   php-intl \
   php-mbstring \
   php-mysqlnd \
+  php-opcache \
+  php-pecl-xdebug \
   php-pecl-zip \
   php-pdo \
   php-process \
