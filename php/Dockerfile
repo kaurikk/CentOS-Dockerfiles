@@ -6,7 +6,7 @@
 # Set the base image to managlea/centos
 FROM managlea/centos
 MAINTAINER Kauri Kont-Kontson <kauri.kont-kontson@managlea.com>
-LABEL build-date="2016-12-20"
+LABEL build-date="2017-03-17"
 
 # Install & enable REMI
 RUN rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
